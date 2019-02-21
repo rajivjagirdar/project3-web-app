@@ -4,12 +4,7 @@ import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
 import "./style.css"
-//import moment from "moment"
 import Moment from "react-moment"
-//import { TimeDate } from "../components/React-Moment/react-moment";
-
-
-
 
 class Leaderboard extends Component {
   state = {
@@ -27,10 +22,8 @@ class Leaderboard extends Component {
     API.getScores()
       .then(res =>
        this.setState({ scores: res.data, player: "", score: "", date: ""})
-       // console.log("why no load")
       )
       .catch(err => console.log(err));
-     // window.location.reload();
   };
 
   render() {
@@ -44,7 +37,6 @@ class Leaderboard extends Component {
               <h1>High Scores Leaderboard!!!</h1>
             </Jumbotron>
             </Col>
-
 
             <Row>
             <Col size="lg-3">
@@ -64,8 +56,7 @@ class Leaderboard extends Component {
             )}
           </Col>
 
-
-            <Col size="lg-3">
+          <Col size="lg-3">
             <h3>Player</h3>
             {this.state.scores.length ? (
               <List>
