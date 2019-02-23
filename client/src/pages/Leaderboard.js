@@ -30,7 +30,7 @@ class Leaderboard extends Component {
     let counter = 1;
 
     return (
-      <Container fluid>
+      <Container>
 
           <Col size="lg-12">
             <Jumbotron>
@@ -55,8 +55,8 @@ class Leaderboard extends Component {
               <h3>No Results to Display</h3>
             )}
           </Col>
-
-          <Col size="lg-3">
+          
+            <Col size="lg-3">
             <h3>Player</h3>
             {this.state.scores.length ? (
               <List>

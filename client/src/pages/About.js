@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Jumbotron from "../components/Jumbotron";
-import { Col, Row, Container } from "../components/Grid";
+import { Col, Container } from "../components/Grid";
 
 class About extends Component {
 
   render() {
     return (
-      <Container fluid>
+      <Container>
           <Col size="lg-12">
             <Jumbotron>
               <h1>
@@ -14,6 +14,10 @@ class About extends Component {
               </h1>
             </Jumbotron>
           </Col>
+<br></br>
+          <p>The current controls are very simple. WASD or Arrow Keys are used to move. Moving towards an enemy will automatically attack them, if they're in range. By default, the Knight has a range of 1, the Archer has a range of 4, and the Wizard has a range of 2.
+
+Pressing the Escape Key will open the menu. From here you may use special moves, which will cost mana. At the moment, the only special moves are timed buffs.</p>
       </Container>
     );
   }

@@ -1,3 +1,7 @@
 h3 {
 text-align: center
 }
+body {
+    background-image: "../images/floor_3.png";
+    background-repeat: repeat
+}
