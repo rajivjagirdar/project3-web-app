@@ -8,6 +8,7 @@ import Contact from "./pages/Contact"
 import Footer from "./components/Footer"
 import knight from "./images/knightrun.png"
 
+
 function App() {
   return (
     <Router>
@@ -21,7 +22,7 @@ function App() {
       </Switch>
        <Footer>
        <img src ={knight}/>
-       <span>copyright Project W.A.R.N. 2019 </span>
+       <span> © Project W.A.R.N. 2019 </span>
      </Footer>
     </div>
     </Router>

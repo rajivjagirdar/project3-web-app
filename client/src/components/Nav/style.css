@@ -1,4 +1,8 @@
 .warn {
  color: grey;
- 
+}
+
+.navbar-expand {
+    background-image: "./images/floor_1.png";
+    background-repeat: repeat
 }
