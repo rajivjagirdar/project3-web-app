@@ -34,7 +34,7 @@ class Leaderboard extends Component {
 
           <Col size="lg-12">
             <Jumbotron>
-              <h1>High Scores Leaderboard!!!</h1>
+              <h1>High Scores Leaderboard</h1>
             </Jumbotron>
             </Col>
 

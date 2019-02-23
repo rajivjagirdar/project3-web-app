@@ -45,3 +45,10 @@
 .card > .remove:hover {
   color: blue;
 }
+
+.pic {
+  height: 5%;
+  width: 5%
+}
+
+
